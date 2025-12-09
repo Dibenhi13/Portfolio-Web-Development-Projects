@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home • Hogwarts Spellbook</title>
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body class="home">
+    <div class="homePage">
+        <div class="background"></div>
+        <!--HEADER Y NAVBAR-->
+        <header class="headerSitio">
+        <h2 class="logo">Hogwarts Spellbook</h2>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="myhouse.html">My House</a>
+            <a href="myspells.html">My Spells</a>
+            <a href="myprofile.html">Profile</a>
+        </nav>
+        </header>
+
+        <!--CONTENIDO-->
+        <!--PANEL IZQUIERDA-->
+        <main class="contenidoHome">
+        <section class="textoBienvenida">
+            <h1>WELCOME HOME, <span id="username">Nombre</span></h1>
+            <p>Welcome to Hogwarts Spellbook! Step into the enchanted halls of Hogwarts, where every page holds a secret and every spell awaits your discovery. Choose your own path, uncover the mysteries of your house, and master magic like a true wizard. Your adventure begins here — let your journey unfold!</p>
+        </section>
+
+        <!--PANEL DERECHA-->
+        <section class="panelDerecha">
+            <!--CARRUSEL-->
+            <div class="carrusel glass">
+                <div class="slide active">
+                    <img src="ImagenesFinales/CarruselHome/SpellsHome.jpg" alt="Spells">
+                    <div class="textoSlide">
+                        <h3>Master New Magic</h3>
+                        <p>Keep pace with your lessons, young wizard! Every spell you learn brings you closer to mastering the art of magic.</p>
+                        <a href="myspells.html">Return to Your Spellbook &gt;</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="ImagenesFinales/CarruselHome/HouseHome.jpg" alt="My House">
+                    <div class="textoSlide">
+                        <h3>Explore Your House</h3>
+                        <p>Discover the history and values of your Hogwarts House. Learn what makes your colors shine brightest.</p>
+                        <a href="myhouse.html">Visit Your Common Room &gt;</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="ImagenesFinales/CarruselHome/ProfileHome.jpg" alt="Profile">
+                    <div class="textoSlide">
+                        <h3>Customize Your Profile</h3>
+                        <p>Change your appearance, update your house, and make your magical identity truly your own.</p>
+                        <a href="myprofile.html">Update Profile &gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--WIDGETS DE CLIMA-->
+            <div class="widgetsInferiores">
+                <div class="widgetsClima">
+                    <div class="tarjetaClima glass">
+                        <div class="infoClima">
+                            <h3>Hogwarts</h3>
+                            <p id="weatherHogwartsCond">Snow</p>
+                        </div>
+                        <div class="tempClima" id="weatherHogwartsTemp">-6°C</div>
+                    </div>
+                
+                    <div class="tarjetaClima glass">
+                        <div class="infoClima">
+                            <h3>London</h3>
+                            <p id="weatherLondonCond">Rain</p>
+                        </div>
+                        <div class="tempClima" id="weatherLondonTemp">12°C</div>
+                    </div>
+                </div>
+
+                <!--MUSICA-->
+                <div class="widgetMusica glass">
+                    <img id="albumCover" src="assets/music/PortadaAlbum3.jpg" alt="Album Cover">
+                    <div class="musicInfo">
+                        <h4 id="trackTitle">Hedwig's Theme</h4>
+                        <p id="trackArtist">John Williams</p>
+                    </div>
+                    <div class="musicControls">
+                        <!--EMOJIS DE WHATS, DEBERIA CAMBIARLO A ICONOS?-->
+                        <!--NAHHH, I THINK IT LOOKS GOOD WITH THEM NGL-->
+                        <button id="prevBtn">⏮</button>
+                        <button id="playPauseBtn">⏯</button>
+                        <button id="nextBtn">⏭</button>
+                    </div>
+                    <audio id="bgMusic" src="assets/music/Lumos_Hedwig's_Theme.mp3" loop></audio>
+                </div>
+            </div>
+        </section>
+        </main>
+    </div>
+</body>
+
+<script src="js/home.js"></script>
+<script src="js/music.js"></script>
+<script src="js/climaHome.js"></script>
+<script src="js/homeTOKEN.js"></script>
+</html>

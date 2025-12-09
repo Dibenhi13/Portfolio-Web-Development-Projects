@@ -1,0 +1,94 @@
+/* COLORES POR CASA*/
+:root {
+    --font-body: 'Poppins', sans-serif;
+    --font-title: 'Cinzel', serif;
+}
+
+/* Gryffindor */
+.theme-gryffindor {
+    --primary: #7F0909;
+    --primaryGlass: #7f09099b;
+    --secondary: #E7A748;
+    --accent: #B96302;
+    --accentGlass: #b964029a;
+    --bgImageSpells: url('../ImagenesFinales/spellsBackground.jpg');
+    --bgImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+    --myImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+}
+
+/* Slytherin */
+.theme-slytherin {
+    --primary: #0F1E0F;
+    --primaryGlass: #0f1e0fb1;
+    --secondary: #5E7D67;
+    --accent: #75A95F;
+    --accentGlass: #75a95f79;
+    --bgImageSpells: url('../ImagenesFinales/spellsBackground.jpg');
+    --bgImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+    --myImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+}
+
+ /* Ravenclaw */
+.theme-ravenclaw {
+    --primary: #112250;
+    --primaryGlass: #112250aa;
+    --secondary: #E0C58F;
+    --accent: #F5F0E9;
+    --accentGlass:#e0c58fb5;
+    --bgImageSpells: url('../ImagenesFinales/spellsBackground.jpg');
+    --bgImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+    --myImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+}
+
+/* Hufflepuff */
+.theme-hufflepuff {
+    --primary: #DAA755;
+    --primaryGlass: #daa755a5;
+    --secondary: #462506;
+    --accent: #F1DEA8;
+    --accentGlass:#462506ab;
+    --bgImageSpells: url('../ImagenesFinales/spellsBackground.jpg');
+    --bgImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+    --myImageProfile: url('../ImagenesFinales/myProfileBackground.jpg');
+}
+
+
+/*APLICANDO LOS TEMAS*/
+body {
+    background: var(--bgImageHome) center/cover no-repeat fixed;
+    color: #f8f4ef;
+    font-family: var(--font-body);
+}
+
+.mySpells{
+    background: var(--bgImageSpells) center/cover no-repeat fixed;
+}
+
+/*.myProfile{
+    background: var(--bgImageProfile) center/cover no-repeat fixed;
+}*/
+
+/*.myProfilePic{
+    background: var(--bgImageSpells) center/cover no-repeat fixed;
+}*/
+
+/*BOTONES*/
+.btn-primary {
+    background: var(--primary);
+    color: #fff;
+}
+.btn-secondary {
+    background: var(--secondary);
+    color: #000;
+}
+.navbar {
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+.navbar a:hover {
+    color: var(--secondary);
+}
+.accent {
+    color: var(--accent);
+}

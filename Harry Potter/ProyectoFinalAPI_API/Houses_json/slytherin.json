@@ -1,0 +1,25 @@
+{
+    "houseName" : "Slytherin",
+    "values" : "• Ambition • Cunning • Determination • Resourcefulness •",
+    "infoHouse" : "Slytherin was founded by Salazar Slytherin, a cunning and ambitious wizard who valued cleverness, ambition, determination, and blood purity.",
+    "infoHouseBottom" : "Historically, the house has been home to powerful and often controversial wizards, including figures such as Severus Snape and Tom Riddle (Voldemort).",
+    "fotos" : {
+        "backgroundHome": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Slytherin/SlytherinCommonRoom.jpg",
+        "backgroundHouse": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Slytherin/slytherinMyHouse.jpg",
+        "characterOne" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Slytherin/dracoMalfoy.jpg",
+            "name" : "Draco Malfoy",
+            "info" : "A cunning and ambitious wizard from Slytherin House, Draco is known for his sharp wit, pride in his pure-blood heritage, and rivalry with Harry Potter."
+        },
+        "characterTwo" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Slytherin/severusSnape.jpg",
+            "name" : "Severus Snape",
+            "info" : "A brave and complex Slytherin who mastered Potions and Defense Against the Dark Arts. His loyalty and sacrifice reveal true courage beneath his stern exterior."
+        },
+        "characterThree" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Slytherin/voldemort.jpg",
+            "name" : "Tom Riddle (Voldemort)",
+            "info" : "Once a brilliant student, Tom Riddle became Lord Voldemort — the darkest wizard of all time, whose ambition and thirst for power knew no bounds."
+        }
+    }
+}

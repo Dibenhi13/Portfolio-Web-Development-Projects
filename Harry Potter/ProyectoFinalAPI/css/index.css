@@ -1,0 +1,33 @@
+.paginaLogin {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+    background: url('../ImagenesFinales/imagenFondoInicioSesion.jpg') center/cover no-repeat;
+    filter: brightness(0.45);
+    z-index: -2;
+}
+
+.tituloLogIn {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+    animation: ease-in 3s;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

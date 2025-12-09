@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My House • Hogwarts Spellbook</title>
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/myhouse.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body class="myHouse">
+    <div class="homePage">
+        <div class="background"></div>
+        <!--HEADER Y NAVBAR-->
+        <header class="headerSitio">
+        <h2 class="logo">Hogwarts Spellbook</h2>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="myhouse.html" class="active">My House</a>
+            <a href="myspells.html">My Spells</a>
+            <a href="myprofile.html">Profile</a>
+        </nav>
+        </header>
+
+        <!--CONTENIDO-->
+        <main class="contenidoHouse">
+            <section class="seccionPersonajes">
+                <h2 class="tituloPersonajes">Characters from my House</h2>
+                <!--CARRUSEL ROUND AND ROUND-->
+                <!--CCAMBIAR CON JS Y LA INFO DE LA API/USUARIO-->
+                <div class="carruselPersonajes">
+                    <button class="btnCarrusel prev">&#10094;</button>
+                    <div class="cardPersonaje active">
+                        <img class="cardPersonajeImage_one" src="ImagenesFinales/Slytherin/dracoMalfoy.jpg" alt="Draco Malfoy">
+                        <div class="overlay">
+                            <h3 class="characterName_one">Draco Malfoy</h3>
+                            <p class="characterInfo_one">A cunning and ambitious wizard from Slytherin House, Draco is known for his sharp wit, pride in his pure-blood heritage, and rivalry with Harry Potter.</p>
+                        </div>
+                    </div>
+
+                    <div class="cardPersonaje">
+                        <img class="cardPersonajeImage_two" src="ImagenesFinales/Slytherin/severusSnape.jpg" alt="Severus Snape">
+                        <div class="overlay">
+                            <h3 class="characterName_two">Severus Snape</h3>
+                            <p class="characterInfo_two">A brave and complex Slytherin who mastered Potions and Defense Against the Dark Arts. His loyalty and sacrifice reveal true courage beneath his stern exterior.</p>
+                        </div>
+                    </div>
+
+                    <div class="cardPersonaje">
+                        <img class="cardPersonajeImage_three" src="ImagenesFinales/Slytherin/voldemort.jpg" alt="Tom Riddle">
+                        <div class="overlay">
+                            <h3 class="characterName_three">Tom Riddle (Voldemort)</h3>
+                            <p class="characterInfo_three">Once a brilliant student, Tom Riddle became Lord Voldemort — the darkest wizard of all time, whose ambition and thirst for power knew no bounds.</p>
+                        </div>
+                    </div>
+                    <button class="btnCarrusel next">&#10095;</button>
+                </div>
+            </section>
+        
+            <!--INFO DE CASA-->
+            <!--CCAMBIAR CON JS Y LA INFO DE LA API/USUARIO-->
+            <section class="infoCasa glass">
+                <h1 class="houseName">Slytherin House</h1>
+                <p class="traits">• Ambition • Cunning • Determination • Resourcefulness •</p>
+                <p class="textoCasa paragraph_one">Slytherin was founded by Salazar Slytherin, a cunning and ambitious wizard who valued cleverness, ambition, determination, and blood purity.</p>
+                <p class="textoCasa paragraph_two">Historically, the house has been home to powerful and often controversial wizards, including figures such as Severus Snape and Tom Riddle (Voldemort).</p>
+                
+                <!--MUSICA-->
+                <div class="widgetMusica glass">
+                    <img id="albumCover" src="assets/music/PortadaAlbum3.jpg" alt="Album Cover">
+                    <div class="musicInfo">
+                        <h4 id="trackTitle">Hedwig's Theme</h4>
+                        <p id="trackArtist">John Williams</p>
+                    </div>
+                    <div class="musicControls">
+                        <!--EMOJIS DE WHATS, DEBERIA CAMBIARLO A ICONOS?-->
+                        <!--NAHHH, I THINK IT LOOKS GOOD WITH THEM NGL-->
+                        <button id="prevBtn">⏮</button>
+                        <button id="playPauseBtn">⏯</button>
+                        <button id="nextBtn">⏭</button>
+                    </div>
+                    <audio id="bgMusic" src="assets/music/Lumos_Hedwig's_Theme.mp3" loop></audio>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+<script src="js/music.js"></script>
+<script src="js/myhouse.js"></script>
+<script src="js/myhouseTOKEN.js"></script>
+</html>

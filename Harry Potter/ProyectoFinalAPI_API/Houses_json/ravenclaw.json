@@ -1,0 +1,25 @@
+{
+    "houseName" : "Ravenclaw",
+    "values" : "• Intelligence • Wisdom • Creativity • Individuality •",
+    "infoHouse" : "Ravenclaw was founded by Rowena Ravenclaw, who valued intelligence, learning, and wit in her students.",
+    "infoHouseBottom" : "Ravenclaw house is known for producing brilliant and creative witches and wizards, including Luna Lovegood and Cho Chang.",
+    "fotos" : {
+        "backgroundHome": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Ravenclaw/RavenclawCommonRoom.jpg",
+        "backgroundHouse": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Ravenclaw/ravenclawMyHouse.jpg",
+        "characterOne" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Ravenclaw/lunaLovegood.jpg",
+            "name" : "Luna Lovegood",
+            "info" : "An eccentric and intelligent witch, known for her creativity, wisdom, and unique perspective."
+        },
+        "characterTwo" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Ravenclaw/choChang.jpg",
+            "name" : "Cho Chang",
+            "info" : "A talented and intelligent student, admired for her grace, skill in Quidditch, and clever mind."
+        },
+        "characterThree" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Ravenclaw/filiusFlitwick.jpg",
+            "name" : "Professor Filius Flitwick",
+            "info" : "The Head of Ravenclaw House and Charms professor, known for his brilliance, wisdom, and dedication to his students."
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "houseName" : "Hufflepuff",
+    "values" : "• Loyalty • Patience • Fairness • Hard Work •",
+    "infoHouse" : "Hufflepuff was founded by Helga Hufflepuff, who prized dedication, patience, loyalty, and fair play.",
+    "infoHouseBottom" : "Hufflepuff is known for producing trustworthy and hardworking witches and wizards, including Cedric Diggory and Nymphadora Tonks.",
+    "fotos" : {
+        "backgroundHome": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Hufflepuff/HufflepuffCommonRoom.jpg",
+        "backgroundHouse": "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Hufflepuff/hufflepuffMyHouse.jpg",
+        "characterOne" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Hufflepuff/cedricDiggory.jpg",
+            "name" : "Cedric Diggory",
+            "info" : "A fair and honorable student, known for his bravery, loyalty, and sportsmanship."
+        },
+        "characterTwo" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Hufflepuff/tonks.jpg",
+            "name" : "Nymphadora Tonks",
+            "info" : "A loyal and cheerful witch, gifted in metamorphmagus abilities and known for her dedication to the Order of the Phoenix."
+        },
+        "characterThree" : {
+            "image" : "https://raw.githubusercontent.com/Dibenhi13/APIS-Hogwarts-Spellbook-ProyectoFinal/refs/heads/main/Hufflepuff/sprout.jpg",
+            "name" : "Professor Pomona Sprout",
+            "info" : "The Head of Hufflepuff House and Herbology professor, she exemplifies patience, care, and guidance for her students."
+        }
+    }
+}
